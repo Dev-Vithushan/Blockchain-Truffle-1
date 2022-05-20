@@ -34,6 +34,7 @@ Require - convenience functions in solidity
 
 ```solidity
 
-enum - enum is the 
+enum - enum is the collections of the things we need to store in the blockchain
+Modifier - modifier is the rules statement for the function.
 ```
 

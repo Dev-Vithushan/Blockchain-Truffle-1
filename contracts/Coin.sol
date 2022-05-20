@@ -8,7 +8,7 @@ contract Coin {
     // similar to dic in python compining two values
     mapping (address => uint) public balances;
 
-    // 
+    //
     event sent(address from, address to, uint amount);
 
     // Modifier That gives the rules for the function
