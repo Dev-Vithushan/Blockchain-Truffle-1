@@ -5,6 +5,7 @@ contract Coin {
     // address also the data types in the solididty
     address public minter;
 
+
     // similar to dic in python compining two values
     mapping (address => uint) public balances;
 
