@@ -14,7 +14,7 @@ This is the basic Solidity syntax and descriptions
 I'm a Blockchain Engineer 
 
 
-## Usage/Examples
+## Day 2
 
 ```solidity
 address - It is the public identity in the blockchain
