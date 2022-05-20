@@ -14,6 +14,10 @@ This is the basic Solidity syntax and descriptions
 I'm a Blockchain Engineer 
 
 
+## Day 1
+```solidity
+Basic information about the Solidity and tools
+```
 ## Day 2
 
 ```solidity
