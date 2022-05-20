@@ -18,13 +18,20 @@ contract Coin {
         _;
     }
 
+    // Modifer for the greateThan
+    modifier graterThan(uint amount){
+        require(amount < 1e60);
+        _;
+    }
+
 
     constructor(){
         // return the wallet of the address
         minter = msg.sender;
     }
 
-    function mint(address receiver, uint amount) public {
+    // ADDING the modifier here to the function without any special letter
+    function mint(address receiver, uint amount) public onlyMinter graterThan(amount) {
         require(msg.sender == minter);
         require(amount < 1e60);
         balances[receiver] += amount;
