@@ -30,3 +30,10 @@ Msg - allows us to access some special variables that are available for us from 
 Require - convenience functions in solidity
 ```
 
+## Day 3
+
+```solidity
+
+enum - enum is the 
+```
+
