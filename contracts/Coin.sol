@@ -11,6 +11,13 @@ contract Coin {
     // 
     event sent(address from, address to, uint amount);
 
+    // Modifier That gives the rules for the function
+    modifier onlyMinter{
+        require(msg.sender == minter, "You are not a minter");
+        // You should finish with this symbol
+        _;
+    }
+
 
     constructor(){
         // return the wallet of the address
